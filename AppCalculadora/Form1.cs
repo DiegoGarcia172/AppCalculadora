@@ -65,15 +65,21 @@ namespace AppCalculadora
         }
         private void PbPotencia_Click(object sender, EventArgs e)
         {
-
+            FrmPotencia frm = new FrmPotencia();
+            frm.Show();
+            this.Visible = false;
         }
         private void PbConstante_Click(object sender, EventArgs e)
         {
-
+            FrmConstantePI frm = new FrmConstantePI();
+            frm.Show();
+            this.Visible = false;
         }
         private void PbRedondeo_Click(object sender, EventArgs e)
         {
-
+            FrmRedondeo frm = new FrmRedondeo();
+            frm.Show();
+            this.Visible = false;
         }
     }
 }
